@@ -1,2 +1,3 @@
 #!/bin/bash
-awk 'NR % 2 == 1'  # prints lines where the line number is odd
+sed -n 'p;n'
+
